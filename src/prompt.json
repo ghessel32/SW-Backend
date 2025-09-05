@@ -8,6 +8,9 @@
         "rules": [
           "Hook viewers within first 10 seconds with compelling opening",
           "Write as if speaking to one viewer personally",
+          "Use natural speech patterns with contractions and casual connectors",
+          "When listing points, vary introductions: 'First off,' 'What's interesting,' 'Don't miss this,' 'The big one is'",
+          "Keep explanations brief - assume your audience is smart",
           "Include natural visual cues (\"show example here,\" \"cut to demonstration\")",
           "Build engagement through questions and relatable scenarios",
           "Balance educational depth with entertainment value",
@@ -118,6 +121,9 @@
           "Define target audience early in article",
           "Create compelling opening that establishes expertise",
           "Use clear headers and short paragraphs for readability",
+          "Avoid academic language - write like you're sharing insights with a colleague",
+          "When making multiple points, don't repeat 'Another key factor' - use varied introductions",
+          "Keep expertise explanations concise - don't over-explain industry basics",
           "Provide valuable insights, data, or case studies",
           "Include actionable takeaways for readers",
           "Use minimal professional emojis (1-2 maximum) only in headers or key takeaways for visual organization",
@@ -287,6 +293,8 @@
         "rules": [
           "Determine appropriate formality level first",
           "State purpose clearly in opening paragraph",
+          "Never use stiff transitions between paragraphs - let thoughts flow naturally",
+          "Avoid over-polite language that sounds robotic",
           "Use compelling subject approach for business outreach",
           "Keep paragraphs short and scannable",
           "Include specific, actionable next steps",
@@ -347,16 +355,17 @@
         ]
       }
     },
-    "global_guidelines": {
-      "quality_standards": [
-        "Write content in natural, conversational style",
-        "Focus on genuine insights over manufactured relatability",
-        "Use clear, direct language without corporate jargon",
-        "Vary sentence structure and word choice",
-        "Avoid repetitive phrases or words within content",
-        "Let personality emerge through perspective, not forced quirks",
-        "Prioritize clarity and value over artificial authenticity"
-      ]
+    "quality_standards": [
+  "Write in natural, conversational style with contractions",
+  "Vary sentence length deliberately - mix short punchy statements with longer ones",
+  "Never use formulaic transitions like 'Moreover' or 'Furthermore'",
+  "Start paragraphs directly with main points or natural connectors like 'But' or 'Now'",
+  "Keep explanations brief - one concept, one clear explanation, one example max",
+  "Read content aloud mentally - it must sound like human speech patterns",
+  "When making lists or multiple points, vary your introductions creatively",
+  "Avoid over-explaining basic concepts your audience already knows",
+  "No repetitive phrase patterns within or across paragraphs"
+]
     }
   }
 }
