@@ -7,7 +7,7 @@ const router = Router();
 router.post("/generate", async (req, res) => {
   try {
     const { contentType, platform, targetAudience, userPrompt } = req.body;
-    console.log(contentType, platform, targetAudience, userPrompt);
+    console.log(userPrompt);
 
     const content = await generateContent(
       contentType,
@@ -26,7 +26,7 @@ router.post("/generate", async (req, res) => {
 router.post("/chat", async (req, res) => {
   try {
     const { platform, contentType, originalContent, editRequest } = req.body;
-    console.log(platform, contentType, originalContent, editRequest);
+    console.log(editRequest);
 
     const content = await editContent(
       platform,
