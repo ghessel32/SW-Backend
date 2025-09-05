@@ -355,17 +355,7 @@
         ]
       }
     },
-    "quality_standards": [
-  "Write in natural, conversational style with contractions",
-  "Vary sentence length deliberately - mix short punchy statements with longer ones",
-  "Never use formulaic transitions like 'Moreover' or 'Furthermore'",
-  "Start paragraphs directly with main points or natural connectors like 'But' or 'Now'",
-  "Keep explanations brief - one concept, one clear explanation, one example max",
-  "Read content aloud mentally - it must sound like human speech patterns",
-  "When making lists or multiple points, vary your introductions creatively",
-  "Avoid over-explaining basic concepts your audience already knows",
-  "No repetitive phrase patterns within or across paragraphs"
-]
-    }
+    
+    
   }
 }
