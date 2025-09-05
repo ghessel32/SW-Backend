@@ -94,8 +94,7 @@ function buildPrompt(contentType, platform, targetAudience, userPrompt) {
     );
   }
 
-  // Gather data
-  const humanRules = templates.global_guidelines?.["Human Rules"] || "";
+  
   const length = contentTemplate.length || "";
   const defaultTone = contentTemplate.default_tone || "";
   const rules = contentTemplate.rules?.map((r) => `- ${r}`).join("\n") || "";
@@ -109,7 +108,17 @@ function buildPrompt(contentType, platform, targetAudience, userPrompt) {
 ${contentTemplate.prompt} ${userPrompt}
 
 Human like writing rules:
-${humanRules}
+- Never use formulaic transitions: "Moreover," "Furthermore," "In conclusion," "Additionally," "Another benefit/reason/factor"
+- Start paragraphs naturally: use "But," "Now," "Here's the thing," or jump straight to the point
+- Mix sentence lengths deliberately - no more than 2 consecutive sentences of similar length
+- Keep explanations brief - one concept = one clear sentence + one example maximum
+- Avoid over-explaining basics your audience already knows
+- Write like you're talking to someone, not writing an academic paper
+- When listing multiple points, vary introductions: "What's key," "Don't overlook," "The reality is," "One surprise"
+- Read each paragraph aloud mentally - it must sound like natural speech
+- Use contractions and casual language appropriate to the platform
+- No repetitive phrasing within or across paragraphs
+
 
 Additional rules:
 - Platform-specific rules override global guidelines when they conflict.
