@@ -245,7 +245,7 @@ export async function generateContent(
       userPrompt
     );
 
-    console.log("Generated Prompt:", prompt); // For debugging
+    console.log(userPrompt); // For debugging
     console.log(
       `Using API key for platform ${platform}:`,
       apiKey.substring(0, 10) + "..."
