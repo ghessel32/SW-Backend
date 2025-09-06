@@ -108,6 +108,7 @@ function buildPrompt(contentType, platform, targetAudience, userPrompt) {
 ${contentTemplate.prompt} ${userPrompt}
 
 Human like writing rules:
+-“Start with a hook — this could be a bold claim, a surprising fact, or a relatable question (avoid generic openers).”
 - Never use formulaic transitions: "Moreover," "Furthermore," "In conclusion," "Additionally," "Another benefit/reason/factor"
 - Start paragraphs naturally: use "But," "Now," "Here's the thing," or jump straight to the point
 - Mix sentence lengths deliberately - no more than 2 consecutive sentences of similar length
